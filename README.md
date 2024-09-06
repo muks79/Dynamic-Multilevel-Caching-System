@@ -41,7 +41,7 @@ This project implements a dynamic multilevel caching system that efficiently man
 
 2. Compile the code (if using a C++ compiler):
     ```bash
-    g++ -o cache_system main.cpp
+    g++ -o cache_system CachingSystem.cpp
     ```
 
 3. Run the application:
