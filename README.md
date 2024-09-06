@@ -35,8 +35,8 @@ This project implements a dynamic multilevel caching system that efficiently man
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/muks79/Dynamic-Multilevel-Caching-System.git
+    cd Dynamic-Multilevel-Caching-System
     ```
 
 2. Compile the code (if using a C++ compiler):
@@ -78,21 +78,6 @@ This project implements a dynamic multilevel caching system that efficiently man
     ```cpp
     cacheSystem.removeCacheLevel(1);  // Removes L1 cache
     ```
-
-## Key Decisions
-
-- **Eviction Policies**: Chose LRU and LFU to cover common caching scenarios. LRU is implemented using a `LinkedHashMap` for easy access order management, and LFU can be implemented similarly.
-- **Dynamic Management**: Allows flexibility in adjusting cache sizes and policies during runtime.
-
-## Future Work
-
-- Implement the LFU eviction policy.
-- Add thread-safety to support concurrent operations.
-- Enhance error handling and optimize performance further.
-
-## Contributing
-
-Feel free to contribute by submitting issues, pull requests, or suggestions. For significant changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
